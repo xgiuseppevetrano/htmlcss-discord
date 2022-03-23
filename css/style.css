@@ -10,34 +10,16 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.container {
-    margin: auto;
-    width: 600px;
-    padding: 80px 0 100px;
-}
-
 .clearfix {
     content: "";
     display: table;
     clear: both;
 }
 
-.col-left {
-    float: left;
-}
-
-.col-right {
-    float: left;
-}
-
 /* HEADER */
 header{
     background-image: url("../img/jumbo.png");
     background-size: cover;
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    z-index: 10;
     width: 100%;
     color: white;
 }
@@ -46,7 +28,7 @@ header{
 .nav-container {
     width: 1200px;
     margin: auto; 
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 .header-nav {
@@ -74,10 +56,6 @@ header{
     text-align: right;
 }
 
-.nav-left img {
-    vertical-align: middle;
-}
-
 .nav-middle ul li a {
     text-decoration: none;
     color: white;
@@ -95,6 +73,12 @@ header{
 
 
 /* HEADER-BOX */
+.box-container {
+    margin: auto;
+    width: 600px;
+    padding: 80px 0 100px;
+}
+
 .box-text h1 {
     text-align: center;
     font-size: 42px;
@@ -137,3 +121,76 @@ header{
 
 /* MAIN */
 /* FIRST SECTION */
+.section-container {
+    width: 850px;
+    margin: auto;
+    padding: 80px 0 100px;
+}
+
+.col-left, .col-right {
+    float: left;
+}
+
+.col-left {
+    width: 70%;
+}
+
+.col-right {
+    width: 30%;
+}
+
+.col-left img {
+    height: 350px;
+}
+
+.col-right h2 {
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.col-right p {
+    margin-top: 20px;
+}
+
+/* SECOND SECTION */
+.second-section {
+    background-color: #f6f6f6;
+}
+
+.second-section .col-left {
+    width: 30%;
+}
+
+.second-section .col-right {
+    width: 70%;
+}
+
+.second-section .col-right img {
+    height: 350px;
+}
+
+.second-section .col-left h2 {
+    font-size: 35px;
+    margin-top: 25px;
+}
+
+.second-section .col-left p {
+    margin-top: 20px;
+}
+
+/* FOURTH SECTION */
+.fourth-section {
+    background-color: #f6f6f6;
+}
+
+.row-top {
+    text-align: center;
+}
+
+.row-top h2 {
+    font-size: 35px;
+}
+
+.row-top p {
+    margin-top: 20px;
+}
