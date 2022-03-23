@@ -5,15 +5,29 @@
     box-sizing: border-box;
 }
 
-/* COMMITS */
+/* COMMONS */
 body {
     font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    margin: auto;
+    width: 600px;
+    padding: 80px 0 150px;
 }
 
 .clearfix {
     content: "";
     display: table;
     clear: both;
+}
+
+.col-left {
+    float: left;
+}
+
+.col-right {
+    float: left;
 }
 
 /* HEADER */
@@ -28,41 +42,44 @@ header{
 }
 
 /* HEADER-NAV */
-.header-nav {
+.nav-container {
     width: 1200px;
-    background-color: #3161E0;
-    margin: auto;
+    margin: auto; 
+    margin-top: 20px;
 }
 
-.header-nav, .col-middle ul li {
+.header-nav {
+    width: 100%;
+}
+
+.header-nav, .nav-middle ul li {
     display: inline-block;
 }
 
-.col-left, .col-middle, .col-right {
+.nav-left, .nav-middle, .nav-right {
     float: left;
 }
 
-.col-left, .col-right {
+.nav-left, .nav-right {
     width: 15%;
 }
 
-.col-middle {
+.nav-middle {
     width: 70%;
     text-align: center;
 }
 
-.col-left img {
+.nav-left img {
     vertical-align: middle;
 }
 
-.col-middle ul li a {
+.nav-middle ul li a {
     text-decoration: none;
     color: white;
     margin-right: 35px;
-    vertical-align: middle;
 }
 
-.col-right button {
+.nav-right button {
     padding: 5px 8px;
     border-radius: 20px;
     background-color: white;
@@ -73,9 +90,6 @@ header{
 
 /* HEADER-BOX */
 .header-box {
-    margin: auto;
-    width: 600px;
-    padding: 80px 0;
     color: white;
 }
 
@@ -87,6 +101,7 @@ header{
 .box-text p {
     text-align: center;
     margin-top: 40px;
+    line-height: 25px;
 }
 
 .box-button {
@@ -116,3 +131,6 @@ header{
     background-color: black;
     border: 1px solid black;
 }
+
+/* MAIN */
+/* FIRST SECTION */
