@@ -9,3 +9,110 @@
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.clearfix {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* HEADER */
+header{
+    background-image: url("../img/jumbo.png");
+    background-size: cover;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 10;
+    width: 100%;
+}
+
+/* HEADER-NAV */
+.header-nav {
+    width: 1200px;
+    background-color: #3161E0;
+    margin: auto;
+}
+
+.header-nav, .col-middle ul li {
+    display: inline-block;
+}
+
+.col-left, .col-middle, .col-right {
+    float: left;
+}
+
+.col-left, .col-right {
+    width: 15%;
+}
+
+.col-middle {
+    width: 70%;
+    text-align: center;
+}
+
+.col-left img {
+    vertical-align: middle;
+}
+
+.col-middle ul li a {
+    text-decoration: none;
+    color: white;
+    margin-right: 35px;
+    vertical-align: middle;
+}
+
+.col-right button {
+    padding: 5px 8px;
+    border-radius: 20px;
+    background-color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    color: black;
+}
+
+/* HEADER-BOX */
+.header-box {
+    margin: auto;
+    width: 600px;
+    padding: 80px 0;
+    color: white;
+}
+
+.box-text h1 {
+    text-align: center;
+    font-size: 42px;
+}
+
+.box-text p {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.box-button {
+    margin-top: 20px;
+}
+
+.box-button button {
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.button-mac {
+    margin-right: 30px;
+    color: black;
+    font-weight: bold;
+    background-color: white;
+    border: 1px solid white;
+}
+
+.button-mac i {
+    margin-right: 5px;
+}
+
+.button-browser {
+    color: white;
+    font-weight: bold;
+    background-color: black;
+    border: 1px solid black;
+}
