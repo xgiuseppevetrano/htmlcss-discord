@@ -39,6 +39,7 @@ header{
     left: 0px;
     z-index: 10;
     width: 100%;
+    color: white;
 }
 
 /* HEADER-NAV */
@@ -56,12 +57,8 @@ header{
     display: inline-block;
 }
 
-.nav-left, .nav-middle {
+.nav-left, .nav-middle, .nav-right {
     float: left;
-}
-
-.nav-right {
-    float: right;
 }
 
 .nav-left, .nav-right {
@@ -71,6 +68,10 @@ header{
 .nav-middle {
     width: 70%;
     text-align: center;
+}
+
+.nav-right {
+    text-align: right;
 }
 
 .nav-left img {
@@ -92,13 +93,8 @@ header{
     color: black;
 }
 
-.nav-left, nav 
 
 /* HEADER-BOX */
-.header-nav {
-    color: white;
-}
-
 .box-text h1 {
     text-align: center;
     font-size: 42px;
@@ -112,6 +108,7 @@ header{
 
 .box-button {
     margin-top: 20px;
+    text-align: center;
 }
 
 .box-button button {
