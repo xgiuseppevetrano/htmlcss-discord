@@ -16,6 +16,12 @@ body {
     clear: both;
 }
 
+.section-container {
+    max-width: 850px;
+    margin: auto;
+    padding: 80px 0 100px;
+}
+
 /* HEADER */
 header{
     background-image: url("../img/jumbo.png");
@@ -26,7 +32,7 @@ header{
 
 /* HEADER-NAV */
 .nav-container {
-    width: 1200px;
+    max-width: 1200px;
     margin: auto; 
     padding-top: 20px;
 }
@@ -75,7 +81,7 @@ header{
 /* HEADER-BOX */
 .box-container {
     margin: auto;
-    width: 600px;
+    max-width: 600px;
     padding: 80px 0 100px;
 }
 
@@ -121,12 +127,6 @@ header{
 
 /* MAIN */
 /* FIRST SECTION */
-.section-container {
-    width: 850px;
-    margin: auto;
-    padding: 80px 0 100px;
-}
-
 .col-left, .col-right {
     float: left;
 }
@@ -193,4 +193,35 @@ header{
 
 .row-top p {
     margin-top: 20px;
+}
+
+.download {
+    background-image: url("../img/stars.svg");
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+
+.download h3 {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 25px;
+}
+
+.download-button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.download-button button{
+    margin-right: 30px;
+    color: white;
+    font-weight: bold;
+    background-color: #8ea1e1;
+    border: 1px solid #8ea1e1;
+    padding: 10px 15px;
+    border-radius: 20px;
+}
+
+.download-button i {
+    margin-right: 5px;
 }
