@@ -13,7 +13,7 @@ body {
 .container {
     margin: auto;
     width: 600px;
-    padding: 80px 0 150px;
+    padding: 80px 0 100px;
 }
 
 .clearfix {
@@ -56,8 +56,12 @@ header{
     display: inline-block;
 }
 
-.nav-left, .nav-middle, .nav-right {
+.nav-left, .nav-middle {
     float: left;
+}
+
+.nav-right {
+    float: right;
 }
 
 .nav-left, .nav-right {
@@ -76,7 +80,7 @@ header{
 .nav-middle ul li a {
     text-decoration: none;
     color: white;
-    margin-right: 35px;
+    margin-left: 35px;
 }
 
 .nav-right button {
@@ -88,8 +92,10 @@ header{
     color: black;
 }
 
+.nav-left, nav 
+
 /* HEADER-BOX */
-.header-box {
+.header-nav {
     color: white;
 }
 
